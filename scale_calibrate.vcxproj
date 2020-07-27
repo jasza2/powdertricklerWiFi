@@ -112,7 +112,6 @@
     <ClInclude Include="dispensingfuncs.h" />
     <ClInclude Include="displayfuncs.h" />
     <ClInclude Include="eepromfuncs.h" />
-    <ClInclude Include="microsmooth.h" />
     <ClInclude Include="networkfuncs.h" />
     <ClInclude Include="pwmfuncs.h" />
     <ClInclude Include="scalefuncs.h" />
@@ -122,7 +121,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="cSmoothe.cpp" />
-    <ClCompile Include="microsmooth.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
